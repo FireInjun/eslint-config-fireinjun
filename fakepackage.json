@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-fireinjun",
+  "version": "1.0.0",
+  "description": "ESLint shareable config based on the Zoe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Mykeal 'Fireinjun' Kenny",
+    "email": "mk@fireinjun.com",
+    "url": "https://mykekenny.com"
+  },
+  "homepage": "https://github.com/fireinjun/eslint-config-fireinjun",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fireinjun/eslint-config-fireinjun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fireinjun/eslint-config-fireinjun/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "files": ["index.js", "typescript.js", "../LICENSE"],
+  "peerDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.3",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-no-use-extend-native": "^0.4.0",
+    "eslint-plugin-react": "^7.11.0",
+    "eslint-plugin-unicorn": "^7.1.0",
+    "prettier": "^1.16.1"
+  }
+}
